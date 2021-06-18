@@ -1,0 +1,3 @@
+/drogon_api/build/CMakeFiles/rebuild_cache.dir
+/drogon_api/build/CMakeFiles/drogon.dir
+/drogon_api/build/CMakeFiles/edit_cache.dir

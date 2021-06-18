@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  drogon_api:
+    image: drogonframework/drogon
+    restart: unless-stopped
+    container_name: "DROGON_API"
+    tty: true
+    volumes:
+      - ./src:/drogon_api
+    ports:
+      - "8883:80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
